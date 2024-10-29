@@ -3,7 +3,7 @@
 	{
 		"types" :
 		{
-			"inpCache" : {
+			"impCache" : {
 				"resetDuration" : 4,
 				"rmg" : {
 					"zoneLimit"	: 2,

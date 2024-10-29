@@ -3,7 +3,7 @@
 	{
 		"types" :
 		{
-			"WaterTemple" : {
+			"waterTemple" : {
 				"resetDuration" : 4,
 				"rmg" : {
 					"zoneLimit"	: 2,

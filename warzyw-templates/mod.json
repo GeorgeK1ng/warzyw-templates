@@ -13,11 +13,11 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.23",
+	"version" : "1.24",
  
     "changelog" :
     {
-        "1.0"   : [ "initial release", "Brawl ported to vcmi", "Grond ported to vcmi"],
+        "1.0"    : [ "initial release", "Brawl ported to vcmi", "Grond ported to vcmi"],
         "1.01"   : [ " updated Brawl and  Grond  layout", "fixed mod dependencies", "preliminary Brawl object changes", "doubled Brawl and Grond treasures to match their HotA versions"],
         "1.02"   : [ "bugfix in Brawl object changes crashing the game", "Brawl object changes v2" ],
         "1.03"   : [ "added a missing file in Brawl object changes" ],
@@ -40,7 +40,8 @@
         "1.20"   : [ "added submod with Refugee Town creature banks and creatures to Brawl" ],
         "1.21"   : [ "fixed error with missing towns in Sim City", "alternative guards on all connections in Sim City" ],
         "1.22"   : [ "added submod with Tides of War creature banks to Brawl" ],
-        "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ]
+        "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ],
+        "1.24"   : [ "Fixed ImpCache typo and Water Temple" ]
     },
 
 	"compatibility" :

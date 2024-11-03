@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.24",
+	"version" : "1.25",
  
     "changelog" :
     {
@@ -41,7 +41,8 @@
         "1.21"   : [ "fixed error with missing towns in Sim City", "alternative guards on all connections in Sim City" ],
         "1.22"   : [ "added submod with Tides of War creature banks to Brawl" ],
         "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ],
-        "1.24"   : [ "Fixed ImpCache typo and Water Temple" ]
+        "1.24"   : [ "Fixed ImpCache typo and Water Temple" ],
+        "1.25"   : [ "Chinese translation by Ziyue" ]
     },
 
 	"compatibility" :
@@ -49,5 +50,9 @@
 		"min" : "1.5.6"
 	},
 	
-    "keepDisabled" : false
+    "keepDisabled" : false,
+    "chinese" : {
+    	"name" : "warzyw地图模板集",
+    	"description" : "一批可高度定制的随机地图模板。<br>随着时间的推移，更多的模板将被转换为适用于VCMI的格式。<br>还包括一个竞技场地图。（由紫玥炎霄汉化）"
+    }
 }

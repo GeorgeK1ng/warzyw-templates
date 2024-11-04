@@ -5,17 +5,27 @@
 		{
 			"mdtScriptorium" :
 			{
-				"resetDuration" : 4,
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
 				"rmg" :
 				{
 					"zoneLimit" : 1,
 					"value" : 2000,
 					"rarity" : 50
 				},
-				"levels":
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": 
 				[
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
 						"guards":
 						[
 							{ "amount" : 1, "type" : "monk", "upgradeChance" : 50 },
@@ -24,18 +34,16 @@
 							{ "amount" : 1, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 1, "type" : "monk", "upgradeChance" : 50 }
 						],
-						"reward" :
+						"resources" :
 						{
-							"resources" :
-							{
-								"gold" : 1250,
-								"gems" : 1
-							},
-							"spells" : [ { "level" : 1 } ]
-						}
+							"gold" : 1250,
+							"gems" : 1
+						},
+						"spells" : [ { "level" : 1 } ]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
 						"guards":
 						[
 							{ "amount" : 1, "type" : "monk", "upgradeChance" : 50 },
@@ -44,20 +52,18 @@
 							{ "amount" : 2, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 1, "type" : "monk", "upgradeChance" : 50 }
 						],
-						"reward" :
+						"resources" : 
 						{
-							"resources" : 
-							{
-								"gold" : 1625,
-								"gems" : 2,
-								"crystal" : 2
-							},
-							"spells" : [ { "level" : 1 } ],
-							"artifacts" : [ { "class" : "MINOR" } ]
-						}
+							"gold" : 1625,
+							"gems" : 2,
+							"crystal" : 2
+						},
+						"spells" : [ { "level" : 1 } ],
+						"artifacts" : [ { "class" : "MINOR" } ]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
 						"guards":
 						[
 							{ "amount" : 2, "type" : "monk", "upgradeChance" : 50 },
@@ -66,21 +72,19 @@
 							{ "amount" : 2, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 2, "type" : "monk", "upgradeChance" : 50 }
 						],
-						"reward" :
+						"resources" :
 						{
-							"resources" :
-							{
-								"gold" : 2000,
-								"gems" : 3,
-								"crystal" : 3,
-								"sulfur" : 3
-							},
-							"spells" : [ { "level" : 2 } ],
-							"artifacts" : [ { "class" : "MINOR" } ]
-						}
+							"gold" : 2000,
+							"gems" : 3,
+							"crystal" : 3,
+							"sulfur" : 3
+						},
+						"spells" : [ { "level" : 2 } ],
+						"artifacts" : [ { "class" : "MINOR" } ]
 					},
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
 						"guards":
 						[
 							{ "amount" : 3, "type" : "monk", "upgradeChance" : 50 },
@@ -89,19 +93,16 @@
 							{ "amount" : 3, "type" : "monk", "upgradeChance" : 50 },
 							{ "amount" : 3, "type" : "monk", "upgradeChance" : 50 }
 						],
-						"reward" :
+						"resources" :
 						{
-							"resources" :
-							{
-								"gold" : 2750,
-								"gems" : 4,
-								"crystal" : 4,
-								"sulfur" : 4,
-								"mercury" : 4
-							},
-							"spells" : [ { "level" : 2 } ],
-							"artifacts" : [ { "class" : "TREASURE" }, { "class" : "MAJOR" } ]
-						}
+							"gold" : 2750,
+							"gems" : 4,
+							"crystal" : 4,
+							"sulfur" : 4,
+							"mercury" : 4
+						},
+						"spells" : [ { "level" : 2 } ],
+						"artifacts" : [ { "class" : "TREASURE" }, { "class" : "MAJOR" } ]
 					}
 				]
 			}

@@ -4,84 +4,81 @@
 		"types" :
 		{
 			"spit" : {
-				"resetDuration" : 4,
+				"resetParameters" : {
+					"period" : 4,
+					"visitors" : true,
+					"rewards" : true
+				},
 				"rmg" : {
 					"zoneLimit"	: 2,
 					"value"		: 1000,
 					"rarity"	: 100
 				},
-				"levels": [
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards": [
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance":  { "min" : 0, "max" : 30 },
 						"guards": [
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 30 },
 							{ "amount": 2, "type": "basilisk", "upgradeChance": 30 },
 							{ "amount": 2, "type": "basilisk", "upgradeChance": 30 },
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 30 }
 						],
-						"combat_value": 351,
-						"reward" : {
-							"value": 3000,
-							"resources":
-							{
-								"gold" : 1000
-							},
-							"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "basilisk", "upgradeChance": 30 } ]
-						}
+						"resources":
+						{
+							"gold" : 1000
+						},
+						"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "basilisk", "upgradeChance": 30 } ]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance":  { "min" : 30, "max" : 60 },
 						"guards": [
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 30 },
 							{ "amount": 2, "type": "basilisk", "upgradeChance": 30 },
 							{ "amount": 3, "type": "basilisk", "upgradeChance": 30 },
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 30 }
 						],
-						"combat_value": 702,
-						"reward" : {
-							"value": 6000,
-							"resources":
-							{
-								"gold" : 1500
-							},
-							"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "basilisk", "upgradeChance": 30 } ]
-						}
+						"resources":
+						{
+							"gold" : 1500
+						},
+						"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "basilisk", "upgradeChance": 30 } ]
 					},
 					{
-						"chance": 30,
+						"message" : 34,
+						"appearChance":  { "min" : 60, "max" : 90 },
 						"guards": [
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 30 },
 							{ "amount": 3, "type": "basilisk", "upgradeChance": 30 },
 							{ "amount": 3, "type": "basilisk", "upgradeChance": 30 },
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 30 }
 						],
-						"combat_value": 1053,
-						"reward" : {
-							"value": 9000,
-							"resources":
-							{
-								"gold" : 2000
-							},
-							"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "basilisk", "upgradeChance": 30 } ]
-						}
+						"resources":
+						{
+							"gold" : 2000
+						},
+						"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "basilisk", "upgradeChance": 30 } ]
 					},
 					{
-						"chance": 10,
+						"message" : 34,
+						"appearChance":  { "min" : 90, "max" : 100 },
 						"guards": [
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 60 },
 							{ "amount": 3, "type": "basilisk", "upgradeChance": 60 },
 							{ "amount": 3, "type": "basilisk", "upgradeChance": 60 },
 							{ "amount": 1, "type": "gorgon", "upgradeChance": 60 }
 						],
-						"combat_value": 1404,
-						"reward" : {
-							"value": 12000,
-							"resources":
-							{
-								"gold" : 2000
-							},
-							"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "gorgon", "upgradeChance": 30 } ]
-						}
+						"resources":
+						{
+							"gold" : 2000
+						},
+						"creatures": [ { "amount": 1, "type": "basilisk", "upgradeChance": 30 },  { "amount": 1, "type": "gorgon", "upgradeChance": 30 } ]
 					}
 				]
 			}

@@ -15,7 +15,7 @@
 	
 	"templates" : [ "brawl.json", "brawl-ffa.json" ],
 	
-	"version" : "1.23",
+	"version" : "1.24",
  
     "changelog" :
     {
@@ -42,7 +42,8 @@
         "1.20"   : [ "added smaller versions of the Refugee Town's Mysterious Lamp", "weakened the Daeva creature" ],
         "1.21"   : [ "added smaller versions of the Tides of War's Bone Pillar, Outpost of Souls, Phantom Ship, Scriptorium, Seminarium and Sorceress Castle" ],
         "1.22"   : [ "value, rarity and revisitability tweaks in HotA's Ruins" ],
-        "1.23"   : [ "Fixed ImpCache typo and Water Temple" ]
+        "1.23"   : [ "Fixed ImpCache typo and Water Temple" ],
+        "1.24"   : [ "banks updated to vcmi 1.6 syntax by kdmcser" ]
     },
 
 	"compatibility" :

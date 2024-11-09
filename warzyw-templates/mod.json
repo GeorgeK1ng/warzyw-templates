@@ -13,7 +13,7 @@
 
     "modType" : "Templates",
 	
-	"version" : "1.25",
+	"version" : "1.26",
  
     "changelog" :
     {
@@ -42,7 +42,8 @@
         "1.22"   : [ "added submod with Tides of War creature banks to Brawl" ],
         "1.23"   : [ "small tweaks of bank Ruins in submod HotA Banks in Brawl" ],
         "1.24"   : [ "Fixed ImpCache typo and Water Temple" ],
-        "1.25"   : [ "Chinese translation by Ziyue" ]
+        "1.25"   : [ "Chinese translation by Ziyue" ],
+        "1.26"   : [ "Brawl banks updated to vcmi 1.6 syntax by kdmcser" ]
     },
 
 	"compatibility" :

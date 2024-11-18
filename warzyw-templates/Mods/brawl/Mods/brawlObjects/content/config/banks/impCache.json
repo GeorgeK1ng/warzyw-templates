@@ -3,7 +3,7 @@
 	{
 		"types" :
 		{
-			"inpCache" : {
+			"impCache" : {
 				"resetParameters" : {
 					"period" : 4,
 					"visitors" : true,

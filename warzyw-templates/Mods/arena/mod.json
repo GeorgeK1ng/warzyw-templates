@@ -106,7 +106,7 @@
 		"min" : "1.5.6"
 	},
 	
-    "keepDisabled" : false,
+    "keepDisabled" : true,
 	
 	"polish" :
 	{
